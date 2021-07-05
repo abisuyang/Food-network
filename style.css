@@ -47,6 +47,7 @@ p {
     padding: 15px;
     margin: 40px;
     margin-left: 20pxS;
+    box-shadow: 12px 7px 40px tomato;
 }
 
 #img {
@@ -62,4 +63,71 @@ p {
 
 .text-align {
     text-align: center;
+}
+
+#recipe-title {
+    width: 400px;
+    border: 20px;
+    margin-left: 70px;
+    padding: 10px 10px 20px 10px;
+}
+
+.box-1 {
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 20px 18px 40px gray;
+    border-radius: 40px;
+}
+
+.box-2 {
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 20px 18px 40px gray;
+    border-radius: 40px;
+}
+
+.box-3 {
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 20px 18px 40px gray;
+    border-radius: 40px;
+}
+
+.youtube {
+    margin: 30px;
+    margin-left: 200px;
+}
+
+.instagram {
+    margin: 30px;
+    margin-left: 100px;
+}
+
+.dribble {
+    margin: 30px;
+    margin-left: 100px;
+}
+
+#shadow {
+    box-shadow: 20px 20px 20px grey;
+    border: 20px;
+    border-radius: 40px;
+    background-color: honeydew;
+    margin: 90px;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-bottom: 70px;
+
+}
+
+#size {
+    font-size: 40px;
+    padding-top: 20px;
 }
