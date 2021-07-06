@@ -1,5 +1,5 @@
 BODY {
-    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
 
@@ -8,12 +8,12 @@ h1 {
 }
 
 p {
-    font-family: 'Merriweather', serif;
-    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
 }
 
 .menu {
-    background-color: orangered;
+    background-color: rgb(51, 255, 0);
     width: auto;
     height: 60px;
 }
@@ -67,10 +67,14 @@ p {
 }
 
 .mid-text {
-    margin-top: 80px;
+    margin-top: 150px;
     margin-left: 700px;
     margin-right: 100px;
     margin-bottom: 100px;
+}
+
+.mid-text p {
+    text-align: left;
 }
 
 .mid-banner {
@@ -83,69 +87,59 @@ p {
     margin: 100px 300px;
 }
 
-#recipe-title {
-    width: 400px;
-    border: 20px;
-    margin-left: 70px;
-    padding: 10px 10px 20px 10px;
+.recipe-items {
+    display: flex;
 }
 
-.box-1 {
-    padding: 10px;
-    margin: 20px;
+.box {
+    width: 25%;
+    margin: 5%;
+    margin-right: 5%;
+    padding: 3%;
+    border-radius: 15px;
+    box-shadow: 20px 20px 45px grey;
+}
+
+.box img {
+    width: 260px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.box p {
+    text-align: left;
+}
+
+.area-half {
+    margin: 6%;
+    width: 30%;
+}
+
+.area-section {
+    display: flex;
+    box-shadow: 10px 10px 40px grey;
+    margin: 7%;
+    margin-bottom: 10%;
+    border-radius: 120px;
     background-color: white;
-    box-shadow: 20px 18px 40px gray;
-    border-radius: 40px;
-}
-
-.box-2 {
-    padding: 10px;
-    margin: 20px;
-    background-color: white;
-    box-shadow: 20px 18px 40px gray;
-    border-radius: 40px;
-}
-
-.box-3 {
-    padding: 10px;
-    margin: 20px;
-    background-color: white;
-    box-shadow: 20px 18px 40px gray;
-    border-radius: 40px;
-}
-
-.youtube {
-    margin: 30px;
-    margin-left: 200px;
-}
-
-.instagram {
-    margin: 30px;
-    margin-left: 100px;
-}
-
-.dribble {
-    margin: 30px;
-    margin-left: 100px;
-}
-
-#shadow {
-    box-shadow: 20px 20px 20px grey;
-    border: 20px;
-    border-radius: 40px;
-    background-color: honeydew;
-    margin: 90px;
 }
 
 .footer {
-    text-align: center;
+    padding-top: 50px;
     color: white;
-    background-color: black;
+    background-color: rgb(224, 93, 143);
     padding-bottom: 70px;
+    width: auto;
 
 }
 
+.footer p {
+    text-align: center;
+}
+
 #size {
+    text-align: center;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 40px;
     padding-top: 20px;
 }
